@@ -15,6 +15,7 @@ public class Scene1Main : MonoBehaviour
     void Awake()
     {
         DateTimeSettingData.Initialize();
+        //PlayerPrefs.DeleteAll();
     }
 
     void Update()
